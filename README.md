@@ -10,19 +10,17 @@ This project uses a webcam, OpenCV, MediaPipe, and PyAutoGUI to control the syst
 - OpenCV
 - MediaPipe
 - PyAutoGUI
-
-## Installation
-
-First, clone the repository using the following command:
-
-```bash
-git clone https://github.com/Rakesh0207Kumar/volume-control.git
-
+  
 ## Features
 
 - Detects hand landmarks using MediaPipe.
 - Uses the distance between thumb and index finger to control the system volume.
 - Visualizes hand landmarks and gestures using OpenCV.
+
+First, clone the repository using the following command:
+
+```bash
+git clone https://github.com/Rakesh0207Kumar/volume-control.git
 
 ## Installation
 
@@ -30,3 +28,5 @@ To run this project, you'll need to install the required libraries. You can do t
 
 ```bash
 pip install opencv-python mediapipe pyautogui
+
+
