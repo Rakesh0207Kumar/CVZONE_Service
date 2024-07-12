@@ -1,8 +1,22 @@
 # CVZONE_Service
 
-# Hand Gesture Volume Control
+# Volume Control via Hand Gestures
 
-This project uses computer vision to control the system volume using hand gestures. It leverages OpenCV, MediaPipe, and PyAutoGUI to detect hand movements and adjust the volume accordingly.
+This project uses a webcam, OpenCV, MediaPipe, and PyAutoGUI to control the system volume based on hand gestures. When the distance between the thumb and index finger exceeds a certain threshold, the system volume increases. Otherwise, the system volume decreases.
+
+## Requirements
+
+- Python 3.x
+- OpenCV
+- MediaPipe
+- PyAutoGUI
+
+## Installation
+
+First, clone the repository using the following command:
+
+```bash
+git clone https://github.com/Rakesh0207Kumar/volume-control.git
 
 ## Features
 
